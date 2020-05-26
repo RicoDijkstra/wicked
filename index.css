@@ -84,6 +84,7 @@ input[type=email] {
  border-radius: 10px;
  border: none;
  padding-right: 10px;
+ font-size: 14px;
 }
 
 .register--button {
