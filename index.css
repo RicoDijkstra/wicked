@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   background-image: url("img/header.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -21,12 +22,6 @@ body {
   margin-left: 150px;
 }
 
-.header--link {
-  color: #fff;
-  text-decoration: none;
-  font-size: 24px;
-}
-
 .header--button {
   margin-top: 35px;
   margin-right: 150px;
@@ -35,17 +30,28 @@ body {
   padding: 5px 20px;
   border-radius: 10px;
   float: right;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .our-story {
   color: #fff;
-  width: 100%;
+  text-align: center;
+  max-width: 480px;
   margin: 0 auto;
+  padding-top: 20%;
 }
 
 .our-story--title {
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 500;
-  max-width: 640px;
   line-height: 1;
+  margin: 0;
+}
+
+.our-story--text {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 5px;
 }
