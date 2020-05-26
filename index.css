@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-image: url("img/header.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.header {
+  margin-top: 30px;
+  position: fixed;
+  width: 100%;
+}
+
+.header--logo {
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.header--link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.header--button {
+  margin-top: 35px;
+  margin-right: 150px;
+  background-color: #F64640;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  float: right;
+}
+
+.our-story {
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.our-story--title {
+  font-size: 60px;
+  font-weight: 500;
+  max-width: 640px;
+  line-height: 1;
+}

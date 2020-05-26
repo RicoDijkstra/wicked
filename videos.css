@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    font-family: Segoe UI;
     background-color: #1C1C1E;
     overflow: hidden;
 }
-   
+
 .logo {
     width: 67px;
     height: auto;
