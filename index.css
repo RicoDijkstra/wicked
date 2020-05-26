@@ -40,7 +40,7 @@ body {
   text-align: center;
   max-width: 480px;
   margin: 0 auto;
-  padding-top: 20%;
+  padding-top: 350px;
 }
 
 .our-story--title {
@@ -54,4 +54,53 @@ body {
   font-size: 24px;
   font-weight: 400;
   margin-top: 5px;
+}
+
+.register {
+ max-width: 525px;
+ margin: 0 auto;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #000;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #000;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+input[type=email] {
+ height: 55px;
+ width: 360px;
+ padding-left: 10px;
+ color: #000;
+ border-radius: 10px;
+ border: none;
+ padding-right: 10px;
+}
+
+.register--button {
+  border: none;
+  background-color: #F64640;
+  color: #fff;
+  margin-top: 10px;
+  padding: 17px 25px 17px 25px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: -11px;
+  top: 50%;
+  transform: translatey(6%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.register--button:hover {
+  background-color: rgb(247, 41, 34);
 }
