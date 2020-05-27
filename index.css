@@ -10,6 +10,7 @@ body {
   color: #fff;
 }
 
+
 .page {
   height: 100vh;
 }
@@ -167,6 +168,17 @@ input[type=email] {
   margin-top: 10px;
 }
 
-@media only screen and (max-device-width : 414px) {
-
+@media (max-width : 414px) {
+  .header--logo {
+    margin-left: 50px;
+  }
+  .header--button {
+    margin-right: 50px;
+  }
+  .featured-left {
+    padding-left: 0;
+  }
+  .featured-half--image {
+    max-width: 350px;
+  }
 }
