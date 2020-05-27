@@ -166,3 +166,7 @@ input[type=email] {
   font-size: 24px;
   margin-top: 10px;
 }
+
+@media only screen and (max-device-width : 414px) {
+
+}
