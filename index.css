@@ -204,7 +204,23 @@ input[type=email] {
   .featured-left {
     padding-left: 0;
   }
+  .featured-half {
+    padding-top: 30px;
+  }
   .featured-half--image {
     max-width: 350px;
+  }
+  .featured-half--title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .featured-half--text {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+  .featured-right {
+    float: none;
   }
 }
