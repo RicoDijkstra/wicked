@@ -20,6 +20,7 @@ body {
   margin-top: 30px;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 
 .header--logo {
@@ -44,12 +45,17 @@ body {
   cursor: pointer;
 }
 
+.our-story-brick {
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,90%);
+}
+
 .our-story {
   color: #fff;
   text-align: center;
   max-width: 480px;
   margin: 0 auto;
-  padding-top: 350px;
 }
 
 .our-story--title {
@@ -115,19 +121,26 @@ input[type=email] {
   background-color: rgb(247, 41, 34);
 }
 
+.featured {
+  background-color: #131313;
+
+}
+
 .featured-half  {
   background-color: #131313;
   padding-top: 150px;
-  height: 40vh;
+  display: flex;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .featured-half-info {
-  max-width: 450px;
   padding-top: 50px;
 }
 
 .featured-half--title {
   font-size: 48px;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -137,21 +150,19 @@ input[type=email] {
 }
 
 .featured-half--image {
-  max-width: 480px;
+  max-width: 440px;
 }
 
-.featured-right {
-  float: right;
-  padding-right: 450px;
+.first-image {
+  transform: translateX(7%);
 }
 
-.featured-left {
-  float: left;
-  padding-left: 450px;
+.first-text {
+  max-width: 450px;
 }
 
 .featured-half-two {
-  max-width: 420px;
+  padding-left: 40px;
 }
 
 .featured-half-second {
@@ -182,8 +193,10 @@ input[type=email] {
     margin-top: 8px;
     font-size: 20px;
   }
+  .our-story-brick {
+    transform: translate(0%,50%);
+  }
   .our-story {
-    padding-top: 200px;
     max-width: 350px;
   }
   .our-story--title {
@@ -205,42 +218,34 @@ input[type=email] {
   .register--button {
     margin-left: 132px;
   }
-  .featured-left {
-    padding-left: 0;
-  }
   .featured-half {
-    padding-top: 30px;
-    height: 35vh;
-  }
-  .featured-half--image {
-    max-width: 350px;
+    display: block;
+    text-align: center;
   }
   .featured-half--title {
     font-size: 36px;
-    text-align: center;
-    margin-bottom: 10px;
   }
   .featured-half--text {
     font-size: 20px;
-    text-align: center;
-    margin: 0;
   }
-  .featured-right {
-    float: none;
-    padding-left: 35px;
-    padding-right: 0;
-    padding-top: 50px;
+  .featured-half--image {
+    max-width: 370px;
+    transform: none;
   }
-  .featured-half-two {
-    margin-top: -200px;
-    padding-left: 30px;
-    padding-right: 30px;
+  .featured-half-info {
+    padding-top: 0;
+    margin-top: -30px;
   }
+
   .featured-half--image_second {
-    padding-left: 32px;
-    padding-top: 30px;
+    display: none;
   }
-  .featured-half-second {
-    padding-top: 380px;
+
+  .featured-mobile-image {
+    max-width: 370px;
+  }
+
+  .featured-half-two {
+    padding-left: 0;
   }
 }
