@@ -23,7 +23,7 @@ body {
     padding-top: 30px;
 }
 
-.header__menu-link {
+.header__menu-link, .movies-item-link {
     text-decoration: none;
     color: #fff;
 }
@@ -91,13 +91,112 @@ body {
     margin-bottom: 10px;
 }
 
+.wrapper {
+    margin-left: 20%;
+}
+
 .main {
     margin: 0;
     padding: 0;
-    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 78vw;
 }
 
 .main__title {
     font-size: 40px;
     margin-left: 10px;
+}
+
+
+.main__search-field {
+    background-color: #F64640;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 360px;
+    padding-left: 40px;
+    color: #fff;
+    background-image: url('../img/Search-button-icon.png');
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    outline: 0;
+    background-size: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 16px;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.main__filter-button {
+    color: #fff;
+    background-color: #F64640;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-image: url('../img/filter-icon.png');
+    background-repeat: no-repeat;
+    background-position: 8% center;
+    outline: 0;
+    background-size: 20px;
+}
+
+.main__scrollbar {
+    height: 733px;
+    width: 5px;
+    background-color: #DBDBDB;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.main__scrollbar-color {
+    background-color: #F64640;
+    height: 60px;
+    width: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    transform: translatey(-50%);
+}
+
+.movies {
+    margin-left: 2%;
+}
+
+.movies-item {
+    max-height: 250px;
+    max-width: 170px;
+}
+
+.movies-item-image {
+    max-height: 250px;
+    max-width: 170px;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.movies-item-text {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
 }
