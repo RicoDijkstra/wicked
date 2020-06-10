@@ -210,3 +210,18 @@ body {
     margin: 0;
     text-align: center;
 }
+
+@media (max-width : 414px) {
+    .header {
+        display: none;
+    }
+    .main__scrollbar {
+        display: none;
+    }
+    .main__search {
+        display: none;
+    }
+    .main__filter {
+        display: none;
+    }
+}
