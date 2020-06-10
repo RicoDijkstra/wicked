@@ -224,4 +224,22 @@ body {
     .main__filter {
         display: none;
     }
+    .movies-item {
+        max-height: 139px;
+        max-width: 97px;
+    }
+    .wrapper {
+        margin: 0;
+    }
+    .movie-item-4,.movie-item-5,.movie-item-6,.movie-item-7 {
+        display: none;
+    }
+    .movies-item-image {
+        border-radius: 15px;
+        max-width: 96px;
+        max-height: 139px;
+    }
+    .movies-item-text {
+        display: none;
+    }
 }
