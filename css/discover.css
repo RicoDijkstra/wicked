@@ -231,6 +231,9 @@ body {
     .wrapper {
         margin: 0;
     }
+    .movies {
+        margin-left: 10%;
+    }
     .movie-item-4,.movie-item-5,.movie-item-6,.movie-item-7 {
         display: none;
     }
