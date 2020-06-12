@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../img/header.jpg");
+  background-image: url("img/header.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -179,9 +179,6 @@ input[type=email] {
   font-size: 24px;
   margin-top: 10px;
 }
-.featured-mobile-image {
-  display: none;
-}
 
 @media (max-width : 414px) {
   body {
@@ -246,7 +243,6 @@ input[type=email] {
 
   .featured-mobile-image {
     max-width: 370px;
-    display: inline-block;
   }
 
   .featured-half-two {
