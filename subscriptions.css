@@ -1,0 +1,334 @@
+body {
+  margin: 0;
+  background-color: #1C1C1E;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1C1C1E;
+}
+
+.logo {
+  float: left;
+  width: 67px;
+  height: auto;
+  margin: 10px;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #F64640;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #F64640;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #F64640;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 70px;
+  margin-top: 25px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.subscriptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.card1 {
+  background-color: white;
+  height: 450px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  border-radius: 5px;
+  background-image: url('WCKD-Logo-1.png');
+}
+
+.card2 {
+  background-color: white;
+  height: 500px;
+  width: 300px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  border-radius: 5px;
+  background-image: url('WCKD-Logo-1.png');
+}
+
+.card3 {
+  background-color: white;
+  height: 450px;
+  width: 250px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  border-radius: 5px;
+  background-image: url('WCKD-Logo-1.png');
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.abbo-list1 {
+  list-style-type: none;
+  line-height: 2;
+  margin-left: -40px;
+  text-align: center;
+}
+
+.abbo-list2 {
+  list-style-type: none;
+  line-height: 2;
+  margin-left: -40px;
+  text-align: center;
+}
+
+.abbo-list3 {
+  list-style-type: none;
+  line-height: 2;
+  margin-left: -40px;
+  text-align: center;
+
+}
+
+.card1:hover {
+  transform: scale(1.1);
+}
+
+.card2:hover {
+  transform: scale(1.1);
+}
+
+.card3:hover {
+  transform: scale(1.1);
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.go {
+  width: 100px;
+  height: 30px;
+  background-color: #F64640;
+  color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.display {
+  display: block;
+}
+
+
+/* SLIDER  */
+
+#slideshow { 
+  display: none;
+  margin: 0 auto; 
+  position: relative; 
+  width: 100%;
+  padding: 1% 1% 56.25% 1%; /*56.25 is for 16x9 resolution*/
+  border-radius:20px;
+box-sizing:border-box;
+}
+
+#slideshow > div { 
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; 
+}
+
+#slideshow > div > img {
+width:100%;
+height:100%;
+border-radius:20px;
+}
+
+#slideshow:hover i, #slideshow:hover .slider-dots{
+opacity: 1;
+}
+
+.slidebtn {
+z-index:99;
+background:transparent;
+outline:none;
+border:none;
+
+}
+
+.slidebtn:active,
+.slidedtn:focus {
+outline:none;}
+
+.slidebtn i {
+color:#FFF;
+font-size:72px;
+opacity: 0.2;
+
+
+}
+
+.prev {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  bottom: 10px;
+}
+
+.next {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  bottom: 10px;
+}
+
+
+.slider-dots {
+opacity: 0.2;
+list-style: none;
+display: inline-block;
+padding-left: 0;
+margin-bottom: 0;
+position:absolute;
+left:50%;
+bottom:3%;
+transform: translate(-50%, 0);
+z-index:99;
+display: none;
+}
+
+.slider-dots li {
+color: #000;
+display: inline;
+font-size: 48px;
+margin-right: 5px;
+cursor:pointer;
+}
+
+.slider-dots li.active-dot {
+color: #fff;
+}
+
+/*
+JQUERY SLIDER BY JohnRostislavovich - https://codepen.io/JohnRostislavovich
+ALL YOU HAVE TO DO:
+-copy the whole code html, css & js
+-include jquery lib
+-change the images
+*/
+@media only screen and (max-width: 1000px) {
+
+  #slideshow { 
+    display: block;
+  }
+  .subscriptions{
+    display: none;
+  }
+
+.abbo-list1 {
+  list-style-type: none;
+  line-height: 2;
+  margin-left: 0;
+  text-align: center;
+}
+
+.abbo-list2 {
+  list-style-type: none;
+  line-height: 2;
+  margin-left: 0;
+  text-align: center;
+}
+
+.abbo-list3 {
+  list-style-type: none;
+  line-height: 2;
+  margin-left: 0;
+  text-align: center;
+}
+
+.card1:hover {
+  transform: scale(1.1);
+}
+
+.card2:hover {
+  transform: scale(1.1);
+}
+
+.card3:hover {
+  transform: scale(1.1);
+}
+.card1 {
+  background-color: white;
+  height: 450px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  border-radius: 5px;
+  background-image: url('WCKD-Logo-1.png');
+  margin: 0 auto;
+}
+
+.card2 {
+  background-color: white;
+  height: 450px;
+  width: 250px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  border-radius: 5px;
+  background-image: url('WCKD-Logo-1.png');
+  margin: 0 auto;
+}
+
+.card3 {
+  background-color: white;
+  height: 450px;
+  width: 250px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s;
+  border-radius: 5px;
+  background-image: url('WCKD-Logo-1.png');
+  margin: 0 auto;
+}
+}
