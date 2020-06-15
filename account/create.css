@@ -53,11 +53,12 @@ body {
     font-size: 20px;
 }
 .input {
-    width: 300px;
-    height: 20px;
-    border-radius: 5px;
-    border: none;
-    padding: 1px;
+  width: 300px;
+  height: 33px;
+  margin-bottom: 22px;
+  border-radius: 5px;
+  border: none;
+  padding: 1px;
 }
 .btn {
     border: none;
@@ -67,4 +68,5 @@ body {
     font-size: 30px;
     color: white;
     background-color: #F64640;
+    margin-top: -10px;
 }
