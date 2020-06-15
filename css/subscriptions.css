@@ -48,11 +48,32 @@ a {
   display: none;
 }
 
+.abbon {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.tijden{
+  display: flex;  
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.tijd-item{
+  margin-left: 2%;
+}
+
+.onderlijn{
+  text-decoration: underline;
+}
+
 .subscriptions {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 15px;
 }
 
 .card1 {
@@ -150,7 +171,10 @@ h2 {
 .display {
   display: block;
 }
-
+.css-carousel {
+  position: relative;
+  display: none;
+}
 
 @media only screen and (max-width: 1000px) {
 
@@ -158,6 +182,7 @@ h2 {
 -----------------------------------*/
 .css-carousel {
   position: relative;
+  display: block;
 }
 
 .css-carousel input[name="carousel"] {
@@ -166,15 +191,11 @@ h2 {
 
 .css-carousel .carousel-nav {
   position: absolute;
-  bottom: 50px;
+  bottom: -60px;
   left: 0;
   right: 0;
   text-align: center;
   z-index: 1;
-}
-
-.carousel-nav{
-  margin-bottom: -20%;
 }
 
 .css-carousel .carousel-nav label {
@@ -280,7 +301,7 @@ h2 {
 }
 .card1 {
   background-color: white;
-  height: 450px;
+  height: 400px;
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -293,7 +314,7 @@ h2 {
 
 .card2 {
   background-color: white;
-  height: 450px;
+  height: 400px;
   width: 250px;
   margin-left: 0;
   display: flex;
@@ -307,7 +328,7 @@ h2 {
 
 .card3 {
   background-color: white;
-  height: 450px;
+  height: 400px;
   width: 250px;
   margin-left: 0;
   display: flex;
