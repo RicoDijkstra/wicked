@@ -213,6 +213,9 @@ body {
 .main__logo {
     display: none;
 }
+.main__menu {
+    display: none;
+}
 
 @media (max-width : 414px) {
     .header {
@@ -239,6 +242,7 @@ body {
     .movies-item {
         max-height: 145px;
         max-width: 100px;
+        border-radius: 15px;
     }
     .movies-row {
         max-width: 100vw;
@@ -261,5 +265,13 @@ body {
     .main__logo {
         display: block;
         width: 75px;
+        margin-top: 20px;
+        margin-left: 28px;
+    }
+    .main__menu {
+        float: right;
+        display: block;
+        margin-top: -50px;
+        margin-right: 35px;
     }
 }
