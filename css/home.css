@@ -1,93 +1,310 @@
 body {
-    margin: 0;
-    font-family: Segoe UI;
-    background-color: black;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #1C1C1E;
-  }
-  
-.logo {
-    float: left;
-    width: 67px;
-    height: auto;
-    margin: 10px;
+  margin: 0;
+  background-color: #1C1C1E;
+  overflow: hidden;
+  color: #fff;
 }
 
-  .topnav a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #F64640;
-    color: black;
-    border-radius: 5px;
-    padding: 8px;
-    margin-right: 70px;
-    margin-top: 25px;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
+a {
+  text-decoration: none;
+  color: #fff;
+}
 
-.info {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 15%;
+.header {
+  top: 0;
+  left: 0;
+  width: 18vw;
+  height: 100vh;
+  background-color: #131313;
+  z-index: 1;
+  position: fixed;
 }
-.input {
-    width: 260px;
-    height: 44px;
-    border-radius: 5px;
-    border: none;
+
+.header__logo {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 30px;
 }
-.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: red;
-    margin-top: -10px;
+
+.header__menu-link, .movies-item-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__profile-link {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header__profile {
+  display: flex;
+  margin: 0 auto;
+  max-width: 245px;
+  margin-top: 60px;
+}
+
+.header__profile-img {
+  max-width: 100px;
+  border-radius: 50%;
+  max-height: 100px;
+}
+
+.header__profile-text {
+  margin-left: 20px;
+  line-height: 10px;
+  margin-top: 5px;
+}
+
+.header__profile-name {
+  font-size: 20px;
+}
+
+.header__profile-subscription,
+.header__profile-valid {
+  font-size: 15px;
+}
+
+.header__nav {
+  margin: 50px auto;
+  max-width: 245px;
+}
+
+.active::before {
+  content: ' \25CF';
+  color: #F64640;
+  font-size: 10px;
+  margin-left: -16px;
+  margin-right: 5px;
+  vertical-align: 30%;
+}
+
+.header__nav-small {
+  margin: 210px auto;
+  max-width: 245px;
+}
+
+.header__nav-small-item {
+  font-size: 20px;
+  margin: 0;
+}
+
+.history {
+  opacity: 70%;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  margin-left: 20%;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 78vw;
+}
+
+.main__title {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+
+.main__search-field {
+  background-color: #F64640;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 360px;
+  padding-left: 40px;
+  color: #fff;
+  background-image: url('../img/Search-button-icon.png');
+  background-repeat: no-repeat;
+  background-position: 2% center;
+  outline: 0;
+  background-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.main__filter-button {
+  color: #fff;
+  background-color: #F64640;
+  border: none;
+  padding: 6px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  background-image: url('../img/filter-icon.png');
+  background-repeat: no-repeat;
+  background-position: 8% center;
+  outline: 0;
+  background-size: 20px;
+}
+
+.main__scrollbar {
+  height: 733px;
+  width: 5px;
+  background-color: #DBDBDB;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.main__scrollbar-color {
+  background-color: #F64640;
+  height: 60px;
+  width: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  transform: translatey(-50%);
+}
+
+.movies {
+  margin-left: 2%;
+  height: 100vh;
+  margin-top: -1%;
+}
+
+.movies-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 76.4vw;
+  margin-bottom: 3%;
+}
+
+.movies-item {
+  max-height: 250px;
+  max-width: 170px;
+}
+
+.movies-item-image {
+  max-height: 250px;
+  max-width: 170px;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.movies-item-text {
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
+.main__logo {
+  display: none;
+}
+.main__menu {
+  display: none;
+}
+
+.continue-watching-item {
+  background-image: url('../img/tony_stark.png');
+  width: 440px;
+  height: 248px;
+  position: relative;
+}
+
+.continue-watching-stuff {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.continue-watching__time {
+  font-size: 16px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.continue-watching__text {
+  font-size: 18px;
+  text-align: left;
+}
+
+@media (max-width : 414px) {
+  .header {
+      display: none;
   }
-.btn {
-    border: none;
-    border-radius: 5px;
-    width: 163px;
-    height: 46px;
-    margin-left: -29px;
-    font-size: 21px;
-    color: white;
-    background-color: #F64640;
-}
-.kijk {
-    margin-top: -25px;
-}
-.form {
-    display: flex;
-}
-.kijk-title {
-    color: white;
-}
-.kijk-text {
-    color: white;
-}
-.block {
-    margin-top: 57%;
-    background-color: #1C1C1E;
-    height: 679px;
+  .main__title {
+      font-size: 35px;
+      margin-bottom: 10px;
+      margin-left: 35px;
+  }
+  .main__scrollbar {
+      display: none;
+  }
+  .main__search {
+      display: none;
+  }
+  .main__filter {
+      display: none;
+  }
+  .movies {
+      width: 345px;
+      margin: 0 auto;
+  }
+  .movies-item {
+      max-height: 145px;
+      max-width: 100px;
+      border-radius: 15px;
+  }
+  .movies-row {
+      max-width: 100vw;
+      margin-bottom: 5%;
+  }
+  .wrapper {
+      margin: 0;
+  }
+  .movie-item-4,.movie-item-5,.movie-item-6,.movie-item-7 {
+      display: none;
+  }
+  .movies-item-image {
+      border-radius: 15px;
+      max-width: 100px;
+      max-height: 145px;
+  }
+  .movies-item-text {
+      display: none;
+  }
+  .main__logo {
+      display: block;
+      width: 75px;
+      margin-top: 20px;
+      margin-left: 28px;
+  }
+  .main__menu {
+      float: right;
+      display: block;
+      margin-top: -50px;
+      margin-right: 35px;
+  }
 }
