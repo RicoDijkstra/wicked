@@ -29,7 +29,7 @@ body {
 .header__menu-link, .movies-item-link {
     text-decoration: none;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .header__profile-link {
@@ -363,7 +363,7 @@ h4 {
     .img{
         position: absolute;
         margin-left: 6%;
-        margin-top: -88%;
+        margin-top: -93% !important;
         width: 27%; 
         z-index: 10;
     }
@@ -406,10 +406,6 @@ h4 {
     margin-left: 20%;
     }
 
-
-
-
-
     .header {
         display: none;
     }
@@ -439,5 +435,44 @@ h4 {
         display: block;
         margin-top: -50px;
         margin-right: 35px;
+    }
+}
+@media (max-width : 1200px) {
+    .info{
+        margin-left: -2%;
+    }
+    .info_flex{
+       width: 29%;
+    }
+    .about_flex{
+        font-size: 0.8rem;
+    }
+    .img{
+        margin-top: -43%;
+    }
+    .trailer_button{
+        margin-left: 79%;
+        margin-top: 0%;
+    }
+    .header__profile-name{
+        font-size: 17px;
+    }
+}
+@media (max-width : 1095px) {
+    .about_flex{
+        margin-left: -10%;
+    }
+    .img{
+        margin-top: -50%;
+    }
+    .trailer_button{
+        margin-left: 79%;
+        margin-top: -9%;
+        position: absolute;
+    }
+}
+@media (max-width : 950px) {
+    .about_flex {
+        margin-left: -3%;
     }
 }
