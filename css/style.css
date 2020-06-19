@@ -1,41 +1,5 @@
 @font-face {
   font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-BlackItalic.eot');
-  src: local('Helvetica Now Text  Black Ita'), local('HelveticaNowText-BlackItalic'),
-      url('../fonts/HelveticaNowText-BlackItalic.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-BlackItalic.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-BlackItalic.woff') format('woff'),
-      url('../fonts/HelveticaNowText-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-ExtBdIta.eot');
-  src: local('Helvetica Now Text  ExtBd Ita'), local('HelveticaNowText-ExtBdIta'),
-      url('../fonts/HelveticaNowText-ExtBdIta.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-ExtBdIta.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-ExtBdIta.woff') format('woff'),
-      url('../fonts/HelveticaNowText-ExtBdIta.ttf') format('truetype');
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-Black.eot');
-  src: local('Helvetica Now Text  Black'), local('HelveticaNowText-Black'),
-      url('../fonts/HelveticaNowText-Black.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-Black.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-Black.woff') format('woff'),
-      url('../fonts/HelveticaNowText-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
   src: url('../fonts/HelveticaNowText-BoldItalic.eot');
   src: local('Helvetica Now Text  Bold Italic'), local('HelveticaNowText-BoldItalic'),
       url('../fonts/HelveticaNowText-BoldItalic.eot?#iefix') format('embedded-opentype'),
@@ -72,66 +36,6 @@
 
 @font-face {
   font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-ExtLtIta.eot');
-  src: local('Helvetica Now Text  ExtLt Ita'), local('HelveticaNowText-ExtLtIta'),
-      url('../fonts/HelveticaNowText-ExtLtIta.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-ExtLtIta.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-ExtLtIta.woff') format('woff'),
-      url('../fonts/HelveticaNowText-ExtLtIta.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-Thin.eot');
-  src: local('Helvetica Now Text  Thin'), local('HelveticaNowText-Thin'),
-      url('../fonts/HelveticaNowText-Thin.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-Thin.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-Thin.woff') format('woff'),
-      url('../fonts/HelveticaNowText-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-ExtraLight.eot');
-  src: local('Helvetica Now Text  Extra Light'), local('HelveticaNowText-ExtraLight'),
-      url('../fonts/HelveticaNowText-ExtraLight.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-ExtraLight.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-ExtraLight.woff') format('woff'),
-      url('../fonts/HelveticaNowText-ExtraLight.ttf') format('truetype');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-Light.eot');
-  src: local('Helvetica Now Text  Light'), local('HelveticaNowText-Light'),
-      url('../fonts/HelveticaNowText-Light.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-Light.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-Light.woff') format('woff'),
-      url('../fonts/HelveticaNowText-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-ExtraBold.eot');
-  src: local('Helvetica Now Text  Extra Bold'), local('HelveticaNowText-ExtraBold'),
-      url('../fonts/HelveticaNowText-ExtraBold.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-ExtraBold.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-ExtraBold.woff') format('woff'),
-      url('../fonts/HelveticaNowText-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
   src: url('../fonts/HelveticaNowText-MediumItalic.eot');
   src: local('Helvetica Now Text  Med Ita'), local('HelveticaNowText-MediumItalic'),
       url('../fonts/HelveticaNowText-MediumItalic.eot?#iefix') format('embedded-opentype'),
@@ -163,18 +67,6 @@
       url('../HelveticaNowText-LightItalic.woff') format('woff'),
       url('../fonts/HelveticaNowText-LightItalic.ttf') format('truetype');
   font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Helvetica Now Text';
-  src: url('../fonts/HelveticaNowText-ThinItalic.eot');
-  src: local('Helvetica Now Text  Thin Italic'), local('HelveticaNowText-ThinItalic'),
-      url('../fonts/HelveticaNowText-ThinItalic.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/HelveticaNowText-ThinItalic.woff2') format('woff2'),
-      url('../fonts/HelveticaNowText-ThinItalic.woff') format('woff'),
-      url('../fonts/HelveticaNowText-ThinItalic.ttf') format('truetype');
-  font-weight: 100;
   font-style: italic;
 }
 
