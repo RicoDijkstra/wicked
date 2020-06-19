@@ -31,8 +31,7 @@ body {
   }
 
   .topnav a.active {
-    background-color: #F64640;
-    color: white;
+    color: #F64640;
     border-radius: 5px;
     padding: 8px;
     margin-right: 70px;
