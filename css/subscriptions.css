@@ -55,7 +55,7 @@ a {
 }
 
 .tijden{
-  display: flex;  
+  display: flex;
   color: white;
   align-items: center;
   justify-content: center;
@@ -85,7 +85,6 @@ a {
   align-items: center;
   transition: all 0.2s;
   border-radius: 5px;
-  background-image: url('WCKD-Logo-1.png');
 }
 
 .card2 {
@@ -98,7 +97,10 @@ a {
   align-items: center;
   transition: all 0.2s;
   border-radius: 5px;
-  background-image: url('WCKD-Logo-1.png');
+  background-image: url('../WCKD-Logo-1.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card3 {
@@ -111,7 +113,6 @@ a {
   align-items: center;
   transition: all 0.2s;
   border-radius: 5px;
-  background-image: url('WCKD-Logo-1.png');
 }
 
 h2 {
