@@ -157,9 +157,6 @@ a {
   font-size: 16px;
 }
 
-.main {
-  margin-top: -30px;
-}
 
 .main__filter-button {
   color: #fff;
@@ -236,7 +233,7 @@ a {
 }
 
 .continue-watching-item {
-  background-image: url('../img/tony_stark.png');
+  background-image: url('../img/continue.png');
   width: 375px;
   height: 223px;
   position: relative;
@@ -258,12 +255,13 @@ a {
   font-weight: 300;
   position: absolute;
   bottom: 10px;
-  right: 0;
+  right: 2%;
 }
 
 .continue-watching__text {
   font-size: 18px;
   text-align: left;
+  margin-left: 5px;
 }
 
 .continue-watching-progress {
@@ -281,12 +279,12 @@ a {
 }
 .continue__watching {
   margin-left: 20px;
-  margin-top: -36px;
-  padding-bottom: 10px;
+  margin-top: -30px;
+  padding-bottom: 15px;
 }
 .recently__added {
-  margin-top: -26px;
-  margin-bottom: 2px;
+  margin-top: -15px;
+  margin-bottom: 10px;
 }
 
 @media (max-width : 414px) {
@@ -353,9 +351,11 @@ a {
   }
 
   .continue-watching-item {
-    background-image: url('../img/tony_stark.png');
+    background-image: url('../img/continue.png');
     width: 345px;
     height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   .recently__added {
     margin-top: 10px;

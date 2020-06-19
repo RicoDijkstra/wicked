@@ -97,7 +97,6 @@ body {
 
 .main {
     margin: 0;
-    margin-top: -30px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -182,7 +181,6 @@ body {
 .movies {
     margin-left: 2%;
     height: 100vh;
-    margin-top: -2%;
 }
 
 .movies-row {
